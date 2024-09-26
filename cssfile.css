@@ -1,0 +1,243 @@
+body{
+    background-color:white;
+    color:black;
+    font-style:serif;
+}
+nav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Upper {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.theme{
+    margin-left: 50%;
+    padding: 0px 5px 5px 0px;
+    height: 13px;
+    width: 10px;
+    border: solid rgb(228, 219, 219)9px;
+    border-radius: 3px;
+    background:rgb(228, 219, 219)9px;
+
+}
+.Name{
+    font-size: 20px;
+}
+.fl{
+    font-size: 50px;
+    color: rgb(190, 43, 43);
+
+}
+.v{
+    color: rgb(190, 43, 43);
+}
+.icons{
+    margin-left: 80px;
+}
+.Menu{
+    border: solid rgb(253, 112, 112) 10px;
+    border-radius: 3px;
+    background:rgb(253, 112, 112);
+}
+nav i:hover{
+    color: rgb(190, 43, 43) ;
+}
+#night{
+    display: none;
+}
+.theme #sun:hover{
+    color: rgb(190, 43, 43);
+}
+.menuc{
+    display: none;
+    background-color: rgb(190, 43, 43);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: -90px;
+    position:relative;
+}
+.menuc i{
+    margin-left: 100px;
+}
+.menuc ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.menuc li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menuc i:hover{
+    cursor: pointer;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin: 10px 0% 0% 10px;
+}
+.second img{
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.into{
+    position: relative;
+    left: 150px;
+    gap: 0px;
+}
+.into .we{
+    margin-bottom: -90px;
+    margin-left: 6px;
+    font-size: small;
+}
+.into .hel{
+    font-weight: bold;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(102, 143, 160);
+}
+.hel span{
+    color: rgb(193, 187, 9);
+}
+.resu button{
+    background-color: rgb(113, 203, 111);
+    
+}
+.resu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    padding-top: 300px;
+    margin-right: 40px;
+   
+}
+.resu button{
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+}
+.resu button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.Ab{
+    margin-top: 5%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.About img{
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.About p{
+    margin-right: 80px;
+    margin-left: 5%;
+    line-height: 200%;
+    left: 1px;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 40px;
+}
+.Qu{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.Qu i{
+    font-size: 40px;
+    padding-left: 50%;
+}
+.Qu p{
+    font-size: 30px;
+    letter-spacing: 1.7px;
+    text-align: center;
+    margin-top: 30px;
+}
+.Qu .au{
+    margin-top: 0px;
+    margin-right: 10%;
+    text-align: end;
+    font-size: 20px;
+}
+.en{
+    text-align: center;
+}
+.en h2{
+    margin-top: 2%;
+}
+.co .wh{
+    font-size: 20px;
+}
+.i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5%;
+    gap: 40px;
+    margin-top: 40px;
+    font-size: 30px;
+    transition: transform .2s;
+}
+i:hover {
+    transform: scale(1.5);
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 700px)  {
+    .Menu{
+        border: solid rgb(253, 112, 112) 10px;
+        border-radius: 3px;
+        background:rgb(253, 112, 112);
+    }
+    .second{
+        flex-direction: column;
+    }
+    .into{
+        left:50px;
+    }
+    .resu{
+        padding-top: 30px;
+        padding-left:80px;
+        gap: 120px;
+    }
+    .About img{
+        margin-left: 25%;
+        width: 300px;
+    }
+    .About p{
+        margin-left: 25%;
+        letter-spacing: 1px;
+        line-height: 150%;
+    }
+    .About{
+        flex-direction: column;
+    }
+    .second img{
+        margin-left: 30px;
+    }
+
+}
