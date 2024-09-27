@@ -1,0 +1,221 @@
+body{
+    background-color:white;
+    color:black;
+    font-style:serif;
+}
+nav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Upper {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.theme{
+    margin-left: 50%;
+    padding: 0px 5px 5px 0px;
+    height: 13px;
+    width: 10px;
+    border: solid rgb(228, 219, 219)9px;
+    border-radius: 3px;
+    background:rgb(228, 219, 219)9px;
+
+}
+.menuc a{
+    text-decoration: none;
+    color: black;
+}
+.Name{
+    font-size: 20px;
+}
+.fl{
+    font-size: 50px;
+    color: rgb(190, 43, 43);
+
+}
+.v{
+    color: rgb(190, 43, 43);
+}
+.icons{
+    margin-left: 80px;
+}
+.Menu{
+    border: solid rgb(253, 112, 112) 10px;
+    border-radius: 3px;
+    background:rgb(253, 112, 112);
+}
+nav i:hover{
+    color: rgb(190, 43, 43) ;
+}
+#night{
+    display: none;
+}
+.theme #sun:hover{
+    color: rgb(190, 43, 43);
+}
+.menuc{
+    display: none;
+    background-color: rgb(190, 43, 43);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: -90px;
+    position:relative;
+}
+.menuc i{
+    margin-left: 100px;
+}
+.menuc ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.menuc li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menuc i:hover{
+    cursor: pointer;
+}
+.h{margin-top: -1.5%;
+    height: 4px;
+     width: 10%;
+     margin-bottom: 6%;
+     border: none;
+     border-radius: 2px;
+     background-color: aqua;
+ }
+.Ab{
+    margin-top: 1%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.About img{
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 10px;
+    margin-left: 15%;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 5%;
+}
+.eline {
+    margin-left: 15%;
+    font-size: 25px;
+}
+.eline p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.About2 img{
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 10px;
+    margin-left: 15%;
+}
+.About2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10%;
+}
+.eline2 {
+    margin-left: 15%;
+    font-size: 25px;
+}
+.eline2 p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.sco span{
+    color: rgb(118, 139, 8);
+}
+.About3 img{
+    height: 300px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 10px;
+    margin-left: 13%;
+}
+.About3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 13%;
+    margin-bottom: 3%;
+}
+.eline3 {
+    margin-left: 11%;
+    font-size: 25px;
+}
+.eline3 p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 1000px)  {
+    .Menu{
+        border: solid rgb(253, 112, 112) 10px;
+        border-radius: 3px;
+        background:rgb(253, 112, 112);
+    }
+    .About img{
+        margin-left: -0.8%;
+        width: 300px;
+    }
+    .About p{
+        margin-left: -25%;
+        letter-spacing: 1px;
+        line-height: 150%;
+    }
+    .About{
+        flex-direction: column;
+    }
+    .About2 img{
+        display: none;
+    }
+    .About2 p{
+        margin-left: -25%;
+        letter-spacing: 1px;
+        line-height: 150%;
+    }
+    .About2{
+        flex-direction: column;
+    }
+    .About3 img{
+        margin-left: 2%;
+        width: 300px;
+        margin-bottom: 5%;
+    }
+    .About3 p{
+        margin-left: -25%;
+        letter-spacing: 1px;
+        line-height: 150%;
+    }
+    .About3{
+        flex-direction: column;
+    }
+    .h{
+        margin-top: -1.8%;
+        width: 10%;
+    }
+}

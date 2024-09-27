@@ -79,6 +79,10 @@ nav i:hover{
     margin-top: 20%;
     margin-left: 30%;
 }
+.menuc a{
+    text-decoration: none;
+    color: black;
+}
 .menuc li:hover{
     text-decoration: underline;
     cursor: pointer;
@@ -94,7 +98,7 @@ nav i:hover{
     margin: 10px 0% 0% 10px;
 }
 .second img{
-    margin-left: 200px;
+    margin-left: 50px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .into{
@@ -145,6 +149,14 @@ nav i:hover{
     text-align: center;
     font-size: 30px;
 }
+.h{margin-top: -1.5%;
+   height: 3px;
+    width: 5%;
+    margin-bottom: 6%;
+    border: none;
+    border-radius: 2px;
+    background-color: aqua;
+}
 .About img{
     height: 350px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
@@ -190,24 +202,35 @@ nav i:hover{
     margin-top: 2%;
 }
 .co .wh{
-    font-size: 20px;
+    font-size: 30px;
+    color: green;
 }
-.i{
+#linked{
+    color:rgb(30, 81, 183)
+}
+#insta{
+    color: rgb(195, 12, 110);
+}
+#gitup{
+    color:blueviolet
+
+}
+.co .i{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 5%;
+    padding-left: 0%;
     gap: 40px;
     margin-top: 40px;
     font-size: 30px;
     transition: transform .2s;
 }
-i:hover {
+.co i:hover {
     transform: scale(1.5);
     cursor:pointer;
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 1000px)  {
     .Menu{
         border: solid rgb(253, 112, 112) 10px;
         border-radius: 3px;
@@ -225,16 +248,25 @@ i:hover {
         gap: 120px;
     }
     .About img{
-        margin-left: 25%;
+        margin-left: 35%;
         width: 300px;
     }
     .About p{
-        margin-left: 25%;
+        font-size: 7px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
         letter-spacing: 1px;
-        line-height: 150%;
+        line-height: 40%;
+        word-wrap: break-word;
+        white-space: normal;
     }
     .About{
         flex-direction: column;
+    }
+    .h{
+        margin-top: -1.8%;
+        width: 10%;
     }
     .second img{
         margin-left: 30px;

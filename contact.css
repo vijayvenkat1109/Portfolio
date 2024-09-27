@@ -1,0 +1,181 @@
+body{
+    background-color:white;
+    color:black;
+    font-style:serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Upper {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.theme{
+    margin-left: 50%;
+    padding: 0px 5px 5px 0px;
+    height: 13px;
+    width: 10px;
+    border: solid rgb(228, 219, 219)9px;
+    border-radius: 3px;
+    background:rgb(228, 219, 219)9px;
+
+}
+.Name{
+    font-size: 20px;
+}
+.fl{
+    font-size: 50px;
+    color: rgb(190, 43, 43);
+
+}
+.v{
+    color: rgb(190, 43, 43);
+}
+.icons{
+    margin-left: 80px;
+}
+.Menu{
+    border: solid rgb(253, 112, 112) 10px;
+    border-radius: 3px;
+    background:rgb(253, 112, 112);
+}
+nav i:hover{
+    color: rgb(190, 43, 43) ;
+}
+#night{
+    display: none;
+}
+.theme #sun:hover{
+    color: rgb(190, 43, 43);
+}
+.menuc{
+    display: none;
+    background-color: rgb(190, 43, 43);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: -90px;
+    position:relative;
+}
+.menuc i{
+    margin-left: 100px;
+}
+.menuc ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.menuc a{
+    text-decoration: none;
+    color: black;
+}
+.menuc li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menuc i:hover{
+    cursor: pointer;
+}
+.tha img{
+    height: 300px;
+}
+.tha{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.th{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.th1{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tha p{
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(237, 185, 13);
+}
+.ee{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-left: 0%;
+gap: 40px;
+font-size: 30px;
+transition: transform .2s;
+}
+#linked{
+    color:rgb(30, 81, 183)
+}
+#insta{
+    color: rgb(195, 12, 110);
+}
+#gitup{
+    color:blueviolet
+
+}
+.ee i:hover{
+    transform: scale(1.5);
+}
+.ce{
+    text-align: center;
+    padding-top: 5%;
+    border-radius: 3px;
+    font-size: 120%;
+}
+.ce p{
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ce .ema{
+    color: red;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 1000px)  {
+    .Menu{
+        border: solid rgb(253, 112, 112) 10px;
+        border-radius: 3px;
+        background:rgb(253, 112, 112);
+    }
+    .tha{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tha p{
+        font-size: 30px;}
+    .tha img{
+        height: 200px;
+        width: 200px;
+    }
+    .ee{
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+}
