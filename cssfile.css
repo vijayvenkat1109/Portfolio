@@ -41,12 +41,6 @@ nav{
 nav i:hover{
     color: rgb(190, 43, 43) ;
 }
-#night{
-    display: none;
-}
-.theme #sun:hover{
-    color: rgb(190, 43, 43);
-}
 .menuc{
     display: none;
     background-color: rgb(190, 43, 43);
@@ -229,8 +223,16 @@ nav i:hover{
     .second{
         flex-direction: column;
     }
+    .second img{
+        margin-left: 30px;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
     .into{
-        left:50px;
+        left:2%;
+    }
+    .into .we{
+        font-size:3px;
+        padding-left: 15%;
     }
     .resu{
         padding-top: 30px;
@@ -239,15 +241,16 @@ nav i:hover{
     }
     .About img{
         margin-left: 35%;
-        width: 300px;
+        height: 40%;
+        width: 30%;
     }
     .About p{
-        font-size: 7px;
+        font-size: 3px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 10%;
         letter-spacing: 1px;
-        line-height: 40%;
+        line-height: 30%;
         word-wrap: break-word;
         white-space: normal;
     }
