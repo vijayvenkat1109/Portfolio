@@ -231,13 +231,11 @@ nav i:hover{
         left:2%;
     }
     .into .we{
-        font-size:3px;
-        padding-left: 15%;
+        font-size:10px;
     }
     .resu{
         padding-top: 30px;
-        padding-left:80px;
-        gap: 120px;
+        gap: 85px;
     }
     .About img{
         margin-left: 35%;
@@ -245,7 +243,7 @@ nav i:hover{
         width: 30%;
     }
      .About p{
-        font-size: 10px;
+        font-size: 20px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 10%;
