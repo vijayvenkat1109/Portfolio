@@ -297,8 +297,9 @@ nav i:hover{
         font-size:12px;
     }
     .resu{
+        margin-left: 8%;
         padding-top: 30px;
-        gap: 85px;
+        gap: 140px;
     }
     .About img{
         margin-left: 28%;
