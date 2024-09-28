@@ -1,6 +1,6 @@
 body{
-    background-color:white;
-    color:black;
+    background-color:black;
+    color:white;
     font-style:serif;
 }
 nav{
@@ -14,42 +14,43 @@ nav{
     align-items: center;
 }
 .Upper {
+    padding: 0;
+    margin: 0;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color:black;
     z-index: 100;
+    box-shadow:  rgb(185, 13, 237) 0px 25px 20px -20px;
 }
 .Name{
     font-size: 20px;
 }
 .fl{
     font-size: 50px;
-    color: rgb(190, 43, 43);
+    color: rgb(185, 13, 237);
 
 }
 .v{
-    color: rgb(190, 43, 43);
-}
-.icons{
-    margin-left: 80px;
+    color: rgb(185, 13, 237);
 }
 .Menu{
-    border: solid rgb(253, 112, 112) 10px;
+    border: solid  rgb(185, 13, 237) 10px;
     border-radius: 3px;
-    background:rgb(253, 112, 112);
+    background: rgb(185, 13, 237);
 }
 nav i:hover{
-    color: rgb(190, 43, 43) ;
+    color:  rgb(185, 13, 237) ;
 }
 .menuc{
+    z-index: 150;
     display: none;
-    background-color: rgb(190, 43, 43);
+    background-color: rgb(185, 13, 237);
     height: 350px;
     width: 350px;
     border-radius: 50%;
     margin-top: -150px;
     margin-left: -90px;
-    position:relative;
+    position:fixed;
 }
 .menuc i{
     margin-left: 100px;
@@ -65,7 +66,7 @@ nav i:hover{
 }
 .menuc a{
     text-decoration: none;
-    color: black;
+    color:white;
 }
 .menuc li:hover{
     text-decoration: underline;
@@ -74,10 +75,12 @@ nav i:hover{
 .menuc i:hover{
     cursor: pointer;
 }
+
 .tha img{
     height: 300px;
 }
 .tha{
+    margin-top: 2.2%;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
@@ -91,7 +94,6 @@ nav i:hover{
     align-items: center;
 }
 .th1{
-   
     display: flex;
     flex-direction: column;
     align-items: center;
