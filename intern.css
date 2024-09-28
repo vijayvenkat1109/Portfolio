@@ -19,16 +19,6 @@ nav{
     background-color: white;
     z-index: 100;
 }
-.theme{
-    margin-left: 50%;
-    padding: 0px 5px 5px 0px;
-    height: 13px;
-    width: 10px;
-    border: solid rgb(228, 219, 219)9px;
-    border-radius: 3px;
-    background:rgb(228, 219, 219)9px;
-
-}
 .Name{
     font-size: 20px;
 }
@@ -111,7 +101,7 @@ nav i:hover{
 }
 .de{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    background-color: darkgray;
+    background-color: rgb(255, 182, 182);
     border-radius: 10px;
     height: 70%;
     width: 70%;
@@ -160,5 +150,9 @@ nav i:hover{
     }
     .ke img{
         margin-left: 33%;
+    }
+    .du{
+        font-size: 65%;
+        line-height: 250%;
     }
 }   
