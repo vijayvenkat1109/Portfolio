@@ -142,10 +142,64 @@ transition: transform .2s;
     padding-bottom: 10px;
 }
 @media only screen and (max-width: 1000px)  {
+    .Name{
+        font-size: 22px;
+    }
+    .Name .fl{
+        font-size:80px;
+    }
     .Menu{
-        border: solid rgb(253, 112, 112) 10px;
+        border: solid rgb(185, 13, 237);
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+        background:rgb(185, 13, 237)
+    }
+    .Menu #tri{
+        font-size: 30px;
+    }
+    nav i:hover{
+        color:rgb(185, 13, 237) ;
+    }
+    .menuc{
+        z-index: 120;
+        display: none;
+        background-color:rgb(185, 13, 237);
+        height: 550px;
+        width: 550px;
+        font-size: 35px;
+        border-radius: 50%;
+        margin-top: -200px;
+        margin-left: -120px;
+        position:fixed;
+    }
+    .menuc i{
+        margin-left: 100px;
+    }
+    .menuc ul{
+        list-style: none;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+    .menuc a{
+        text-decoration: none;
+        color: white;
+    }
+    .menuc li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .menuc i:hover{
+        cursor: pointer;
+    }
+    .Menu{
+        border: solid rgb(185, 13, 237) 10px;
         border-radius: 3px;
-        background:rgb(253, 112, 112);
+        background:rgb(185, 13, 237);
     }
     .tha{
         flex-direction: column;
